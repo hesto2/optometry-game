@@ -1,4 +1,6 @@
 # Optometry
+Link to the game: [https://hesto2.github.io/optometry-game](https://hesto2.github.io/optometry-game)
+
 This was the first programming project I ever made on my own back in 2014. I didn't know what Github was, so I stored it in my google drive for almost a decade before digging it up again and deciding that it deserved to be seen 😂
 
 ## Instructions
