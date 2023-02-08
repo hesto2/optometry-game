@@ -1,0 +1,37 @@
+<DOCTYPE! HTML>
+<html id="html">
+	<header>
+	 <title>Optometry</title>
+	 <link rel="stylesheet" type="text/css" href="stylesheet.css">
+	 <script src="functions.js"></script>
+	</header>
+<body>
+
+<h1 style="margin-left:40%"style="margin-bottom:100px">Optometry</h1>
+
+
+<div id='paragraph' style="height:1000px;">
+<img id='strikes' src="strike0.jpg" width='500'/>
+<canvas id='ctx' width='500' height='500'></canvas>
+<br>Instructions: WASD to move, move the red square to touch the blue square<br>
+<div id='score_table'>Score:<p id='score'>0</p><br>
+Time:<p id='count'>5</p>
+<br>Hesto2's High Score: 61<br>
+</div>
+<script src="cubeFunctions.js"></script>
+<script id='game' src="cubeInvasion.js"></script>
+
+
+</div>
+<div id="time_stamp"><script>
+getCurrentTime();
+setInterval(getCurrentTime,500)</script></div>
+
+
+</body>
+<script>
+
+	setBackgroundTime();
+	setInterval(setBackgroundTime,60000);
+</script>
+</html>
